@@ -1,0 +1,673 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "satauri";
+    src: url(DelaGothicOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: "regular";
+    src: url(Montserrat-Regular.ttf);
+}
+
+
+body{
+   
+    background-color: #FFFFFF;
+   
+
+}
+
+.pirvelidas{
+    background-color: #F6F5F4;
+   
+}
+
+.pirvelis1{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    
+   
+    height: 84px;
+  
+   
+}
+
+
+
+.ph1{
+    margin-top: 20px;
+
+}
+
+.phh1{
+    font-family: "satauri";
+
+    width: 130px;
+    height: 21px;
+    font-weight: 400;
+    font-size: 20.8609px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.span00{
+    font-family: "regular";
+    color: #E0E0E0;
+    margin-left: 30px;
+}
+
+.span1{
+    margin-top: 46px;
+    margin-left: 60px;
+}
+
+.ps1{
+    font-family: "regular";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    color: #000000;
+}
+
+.span2{
+    margin-top: 46px;
+    margin-left: 30px;
+}
+
+.ps2{
+    font-family: "regular";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    color: #757575;
+}
+
+.span3{
+    margin-top: 46px;
+    margin-left: 30px;
+}
+
+.ps3{
+    font-family: "regular";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    color: #757575;
+}
+
+.dropbtn {
+    font-family: "regular";
+    background-color: #F6F5F4;
+    color: #757575;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    border: none;
+    margin-left: 30px;
+  }
+  
+  .isari{
+    font-family: "regular";
+    color: #757575;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+  }
+  
+  .dropdown-content a {
+    color: #757575;
+    padding: 12px 16px;
+    font-family: "regular";
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {background-color: #ddd;}
+
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #F6F5F4;}
+
+
+.bato{
+    display: flex;
+    align-items: baseline;
+    margin-left: 400px;
+}
+
+.span5{
+    font-family: "regular";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    width: 51px;
+    height: 14px;
+    color: #000000;
+}
+
+.but1{
+    margin-left: 31px;
+}
+
+.btn1{
+    font-family: "regular";
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 11px 18px;
+    gap: 10px;
+
+    width: 90px;
+    height: 36px;
+
+    background: #2B788B;
+    border-radius: 12px;
+    border: none;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+}
+
+.pirvelihr{
+    color: #E0E0E0;
+    margin: 31px;
+}
+
+.meore2{
+    background-color: #F6F5F4;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    padding-top: 94px;
+   
+    height: 740px;
+   
+}
+
+.texti{
+    margin-right: 60px;
+}
+
+.m1span{
+    font-family: "regular";
+    width: 221px;
+    height: 16px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #2B788B;
+
+}
+
+.m1h{
+    width: 531px;
+    height: 201px;
+    font-family: "satauri";
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 120%;
+    letter-spacing: -0.04em;
+    color: #000000;
+}
+
+.span6{
+    margin-bottom: 24px;
+}
+
+.span7{
+    margin-top: 30px;
+}
+
+.m2span{
+    
+    width: 396.89px;
+    height: 50px;
+    font-family: "regular";
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    color: #757575;
+    
+}
+
+.but2{
+    margin-top: 32px;
+   
+}
+
+.btn2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 22px;
+    gap: 19px;
+
+    width: 165px;
+    height: 44px;
+    background: #C3DCE3;
+    border-radius: 100px;
+    border: none;
+    font-family: "regular";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.04em;
+
+    color: #2B788B;
+
+}
+
+.patebi{
+    display: flex;
+    align-items: baseline;
+    line-height: 0px;
+    margin-top: 48px;
+}
+
+.pat1{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.m2h{
+    font-family: "satauri";
+    font-size: 40px;
+}
+
+.pat2{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-left: 100px;
+}
+
+.svg1{
+    margin-right: 7px;
+}
+
+.svg3{
+    margin-right: 7px;
+}
+
+.m5h{
+    font-family: "satauri";
+    font-size: 40px;
+}
+
+.pliusi{
+    font-family: "satauri";
+    font-size: 37px;
+    color: #2B788B;
+}
+
+.pat1 > svg{
+    margin-right: 10px;
+}
+
+.pat2 > svg{
+    margin-right: 10px;
+}
+
+.qvedawarwera{
+    margin-top: 3px;
+
+    margin-left: 24px;
+}
+
+#pp1{
+  
+    width: 112px;
+    height: 22px;
+    font-family: "regular";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    color: #585858;
+
+}
+
+#pp2{
+    margin-left: 125px;
+    width: 112px;
+    height: 22px;
+    font-family: "regular";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    color: #585858;
+
+}
+
+.image1{
+    width: 550px;
+    height: 480px;
+}
+
+.mesame3{
+    display: flex;
+    justify-content: center;
+
+   
+    height: 600px;
+    background: #FFFFFF;
+}
+
+.piccc{
+    margin-top: 77px;
+}
+
+.textandpic{
+    margin-top: 110px;
+}
+
+.m3h{
+    margin-bottom: 33px;
+    width: 474.46px;
+    height: 96px;
+    font-family: "satauri";
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    color: #000000;
+}
+
+.msp{
+    width: 396.89px;
+    height: 50px;
+    font-family: "regular";
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    color: #757575;
+}
+
+.pic33{
+    margin-top: 30px;
+}
+
+.meotxe4{
+    display: flex;
+    justify-content: center;
+    height: 475px;
+    background: #F6F5F4;
+
+}
+
+.me4h{
+    margin-top: 136px;
+    margin-bottom: 30px;
+    width: 474.46px;
+    height: 96px;
+    font-family: "satauri";
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 100%;
+    color: #000000;
+}
+
+.me4s{
+    
+    width: 396.89px;
+    height: 50px;
+    font-family: "regular";
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    color: #757575;
+}
+
+.btn33{
+    margin-top: 33px;
+    background: #C3DCE3;
+    border-radius: 100px;
+    border: none;    
+    padding: 14px 24px;
+    color: #2B788B;
+    font-family: "regular";
+    font-weight: 700;
+}
+
+.mexute5{
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    background: #FFFFFF;
+    
+
+}
+
+.me5h{
+    margin-bottom: 30px;
+    width: 474.46px;
+    height: 144px;
+    font-family: "satauri";
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    color: #000000;
+
+}
+
+.me5s{
+    width: 396.89px;
+    height: 50px;
+    font-family: "regular";
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    color: #757575;
+
+}
+
+.butt5{
+    margin-top: 34px;
+}
+
+.btn5{
+    background: #C3DCE3;
+    border-radius: 100px;
+    border: none;    
+    padding: 14px 24px;
+    color: #2B788B;
+    font-family: "regular";
+    font-weight: 700;
+}
+
+.pic55{
+    margin-top: 95px;
+}
+
+.texti5{
+    margin-top: 149px;
+}
+
+
+.meeqvse6{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    background: #F6F5F4;
+    height: 74px;
+}
+
+.pirvelixazi{
+    display: flex;
+    align-items: baseline;
+    line-height: 0px;
+    margin-top: 40px;
+}
+
+.er1{
+    font-family: "regular";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    color: #757575;
+    text-decoration: none;
+}
+
+.or2{
+    font-family: "regular";
+    margin-left: 30px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    color: #757575;
+    text-decoration: none;
+}
+
+.sa3{
+    font-family: "regular";
+    margin-left: 30px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    color: #757575;
+    text-decoration: none;
+}
+
+.ot4{
+    font-family: "regular";
+    margin-left: 30px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    color: #757575;
+    text-decoration: none;
+}
+
+.xu5{
+    font-family: "regular";
+    margin-left: 30px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    color: #757575;
+    text-decoration: none;
+}
+
+.eq6{
+    font-family: "regular";
+    margin-left: 560px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    color: #757575;
+    text-decoration: none;
+}
+
+.sh7{
+    font-family: "regular";
+    margin-left: 30px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    color: #757575;
+    text-decoration: none;
+}
+
+.rv8{
+    font-family: "regular";
+    margin-left: 30px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    color: #757575;
+    text-decoration: none;
+}
+
+.mhr{
+    display: flex;
+    justify-content: center;
+}
+
+.meorehr{
+    
+    border: 1.20466px solid #E0E0E0;
+    width: 1180px;
+}
+
+
+.meeqvse66{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    background: #F6F5F4;
+    height: 86px;
+}
+
+.meorexazi{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.svgebi{
+    margin-top: 24px;
+}
+
+.seve2{
+    margin-left: 33px;
+}
+
+.seve3{
+    margin-left: 33px;
+}
+
+.warw{
+    margin-left: 780px;
+}
+
+.war{
+    font-family: "regular";
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 100%;
+    color: #757575;
+
+}
+
